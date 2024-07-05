@@ -112,4 +112,15 @@ legend {
 
 body {
   font-family: "Raleway", sans-serif;
+  background-color: #242b33;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+a {
+  color: #ffffff;
+  transition: color 0.2s ease-in;
+}
+a:hover {
+  color: #d4c17f;
 }/*# sourceMappingURL=main.css.map */
