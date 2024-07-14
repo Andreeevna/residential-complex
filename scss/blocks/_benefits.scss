@@ -1,6 +1,14 @@
 .benefits {
+	position: relative;
 	padding-top: 120px;
 	padding-bottom: 120px;
+
+	&::after {
+		content: 'II';
+		left: calc(50% + 555px);
+		transform: translate(-50%, 0%);
+		@include decorNumber;
+	}
 }
 
 .benefits__row {

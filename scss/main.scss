@@ -3,6 +3,7 @@
 @import './base/reset';
 @import './base/vars';
 @import './base/base';
+@import './base/mixins';
 
 //Blocks
 @import './blocks/header';
@@ -14,6 +15,6 @@
 @import './blocks/cta';
 @import './blocks/form';
 @import './blocks/video';
-@import './blocks/map.scss';
+@import './blocks/map';
 @import './blocks/feedback';
 @import './blocks/footer';
