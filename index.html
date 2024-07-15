@@ -6,10 +6,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>residential-complex</title>
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="./libs/youtubeLightbox/youtubeLightbox.css">
 </head>
 
 <body>
-	<header class="header none">
+	<header class="header">
 		<div class="header__top">
 			<div class="container">
 				<div class="header__top-row">
@@ -57,7 +58,7 @@
 		</div>
 	</header>
 	<main>
-		<section class="benefits none">
+		<section class="benefits">
 			<h2 class="visually-hidden">Преимущества ЖК</h2>
 			<div class="container container--small">
 				<div class="benefits__row">
@@ -88,7 +89,7 @@
 
 		</section>
 
-		<section class="apartments none">
+		<section class="apartments">
 			<div class="container">
 				<div class="apartments__title">
 					<h2 class="title-2">
@@ -116,7 +117,7 @@
 			</div>
 		</section>
 
-		<section class="cta none">
+		<section class="cta">
 			<div class="container">
 				<div class="cta__title">
 					<h2 class="title-2">Хотите посмотреть?</h2>
@@ -143,18 +144,18 @@
 			</div>
 		</section>
 
-		<section class="video none">
+		<section class="video">
 			<h2 class="visually-hidden">Видео про ЖК Loft House</h2>
 			<div class="container">
 
-				<a href="https://www.youtube.com/watch?v=bhJNL9JUsnY" class="video__link">
-					<img src="./img/video/play.svg" alt="Play-Icon" class="video__icon">
-					<img src="./img/video/video-img.jpg" alt="Video" class="video__img">
+				<a href="https://www.youtube.com/watch?v=bhJNL9JUsnY" data-youtubelightbox class="video__link">
+					<img src="./img/video/play.svg" alt="" class="video__icon">
+					<img src="./img/video/video-img.jpg" alt="" class="video__img">
 				</a>
 			</div>
 		</section>
 
-		<section class="section-map none">
+		<section class="section-map">
 			<div class="container">
 				<div class="section-map__title">
 					<h2 class="title-2">Район на карте</h2>
@@ -165,7 +166,7 @@
 			</div>
 		</section>
 
-		<section class="feedback none">
+		<section class="feedback">
 			<div class="container">
 				<div class="feedback__title">
 					<h2 class="title-2">Есть вопросы?</h2>
@@ -184,55 +185,72 @@
 			</div>
 		</section>
 
-		<footer class="footer">
-			<div class="container">
-				<div class="footer__grid">
-					<div class="footer__logo">
-						<a href="#!">
-							<img src="./img/icons/logo.svg" alt="LoftHouse">
-						</a>
-					</div>
-					<div class="footer__nav">
-						<nav>
-							<ul class="footer__nav-list">
-								<li><a href="#!">О комплексе</a></li>
-								<li><a href="#!">Район</a></li>
-								<li><a href="#!">Каталог квартир</a></li>
-								<li><a href="#!">Ипотека</a></li>
-								<li><a href="#!">Контакты</a></li>
-							</ul>
-						</nav>
-					</div>
-					<div class="footer__nav">
-						<nav>
-							<ul class="footer__nav-list">
-								<li><a href="#!">Поселение и переезд</a></li>
-								<li><a href="#!">Сервисные услуги</a></li>
-								<li><a href="#!">Экологическая устойчивость</a></li>
-								<li><a href="#!">Инвестиционные возможности</a></li>
-								<li><a href="#!">Программа лояльности</a></li>
-							</ul>
-						</nav>
-					</div>
-					<div class="footer__address">
+	</main>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__grid">
+				<div class="footer__logo">
+					<a href="#!">
+						<img src="./img/icons/logo.svg" alt="LoftHouse">
+					</a>
+				</div>
+				<div class="footer__nav">
+					<nav>
 						<ul class="footer__nav-list">
-							<li>Адрес: Наб. реки Фонтанки 10-15</li>
-							<li>Телефон: <a href="tel:+78121234567">8 (812) 123-45-67</a></li>
-							<li>Отдел продаж: 10:00 - 20:00</li>
-							<li>E-mail: <a class="link-bold" href="mailto:vip@lofthouse.ru">vip@lofthouse.ru</a></li>
+							<li><a href="#!">О комплексе</a></li>
+							<li><a href="#!">Район</a></li>
+							<li><a href="#!">Каталог квартир</a></li>
+							<li><a href="#!">Ипотека</a></li>
+							<li><a href="#!">Контакты</a></li>
 						</ul>
-						<ul class="footer__socials">
-							<li><a href="#!"><img src="./img/socials/youtube.svg" alt="youtube"></a></li>
-							<li><a href="#!"><img src="./img/socials/vk.svg" alt="vk"></a></li>
-							<li><a href="#!"><img src="./img/socials/facebook.svg" alt="facebook"></a></li>
-							<li><a href="#!"><img src="./img/socials/instagram.svg" alt="instagram"></a></li>
+					</nav>
+				</div>
+				<div class="footer__nav">
+					<nav>
+						<ul class="footer__nav-list">
+							<li><a href="#!">Поселение и переезд</a></li>
+							<li><a href="#!">Сервисные услуги</a></li>
+							<li><a href="#!">Экологическая устойчивость</a></li>
+							<li><a href="#!">Инвестиционные возможности</a></li>
+							<li><a href="#!">Программа лояльности</a></li>
 						</ul>
-					</div>
+					</nav>
+				</div>
+				<div class="footer__address">
+					<ul class="footer__nav-list">
+						<li>Адрес: Наб. реки Фонтанки 10-15</li>
+						<li>Телефон: <a href="tel:+78121234567">8 (812) 123-45-67</a></li>
+						<li>Отдел продаж: 10:00 - 20:00</li>
+						<li>E-mail: <a class="link-bold" href="mailto:vip@lofthouse.ru">vip@lofthouse.ru</a></li>
+					</ul>
+					<ul class="footer__socials">
+						<li><a href="#!"><img src="./img/socials/youtube.svg" alt="youtube"></a></li>
+						<li><a href="#!"><img src="./img/socials/vk.svg" alt="vk"></a></li>
+						<li><a href="#!"><img src="./img/socials/facebook.svg" alt="facebook"></a></li>
+						<li><a href="#!"><img src="./img/socials/instagram.svg" alt="instagram"></a></li>
+					</ul>
 				</div>
 			</div>
-		</footer>
+		</div>
+	</footer>
 
-	</main>
+	<!-- YouTube LightBox -->
+	<div id="youtubelightbox" class="youtubelightbox">
+		<div class="youtubelightbox__centeredchild">
+			<div class="youtubelightbox__videowrapper">
+				<div id="youtubelightboxPlayer"></div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=4f537583-9ef9-4998-a98b-9a6ee160a9d3&lang=ru_RU"
+		type="text/javascript"></script>
+
+	<script src="./libs/phoneMask/mask.js"></script>
+	<script src="./libs/phoneMask/mask_list.js"></script>
+
+	<script src="./libs/youtubeLightbox/youtubeLightbox.js"></script>
 
 	<script src="./js/main.js"></script>
 
