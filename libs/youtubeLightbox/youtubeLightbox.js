@@ -1,5 +1,5 @@
 //  Селектор для ссылок - на которых нужно вызывать youtubeLightbox
-const linksBtnsSelector = 'a[data-youtubeLightbox]'
+const linksBtnsSelector = 'a[data-youtubelightbox]'
 // const linksBtnsSelector = '.lightbox';
 
 // load Youtube API code asynchronously
